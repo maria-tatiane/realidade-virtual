@@ -6,16 +6,17 @@
   </head>
   <body style="margin: 0px; overflow: hidden">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
-      <a-assets>
-        <a-asset-item id="modelo" src="star.gltf"></a-asset-item></a-asset-item>
-      </a-assets>
-      <a-marker preset="hiro">
+        <a-assets>
+          <a-asset-item id="modelo" src="star.gltf"></a-asset-item>
+        </a-assets>
+      
+        <a-marker preset="hiro">
         <a-entity id="modelo3d"
           position="0 0 0"
           rotation="0 0 0"
           scale="1 1 1"
-          gltf-model="#modelo"></a-entity>      
-      </a-marker>
+          gltf-model="#modelo"></a-entity>
+        </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
